@@ -1,3 +1,6 @@
+#update
+armbian-update
+
 #install docker
 curl -fsSL get.docker.com | sh
 
