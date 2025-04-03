@@ -1,6 +1,6 @@
-# Tx3-Mini-Home-assistant-
-Create Armbian Home assistant server Using Tv box. 
-This is how i like to setup my amlogic tv box with limited cpu, ram and, storage
+# Amlogic s905 Tx3-Mini-Home-assistant-
+Create Armbian Home assistant server Using s905 Tv box. 
+This is how i like to setup my amlogic s905 tv box with limited cpu, ram and, storage
 the only down side is no addons. 
 for esphome complier i install esphome docker vm in another pc in my office connecting via zerotier.
 then just add new dashboard pointing to esphome docker ip:port this is faster than directly using esphome in the tvbox.
