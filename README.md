@@ -8,4 +8,4 @@ the tx3-mini only consuming less than 3 watts.
 
 #see release for files i use.
 
-#it can be adapted for using in another s90x brand tv box
+#can be adapted for using in another s90x brand tv box
