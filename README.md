@@ -1,4 +1,4 @@
-# Amlogic s905 Tx3-Mini-Home-assistant-
+# Amlogic s905 Tx3-Mini Home assistant
 Create Armbian Home assistant server Using s905 Tv box. 
 This is how i like to setup my amlogic s905 tv box with limited cpu, ram and, storage
 the only down side is no addons. 
