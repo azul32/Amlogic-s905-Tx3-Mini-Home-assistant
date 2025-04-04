@@ -27,7 +27,7 @@ docker run -d \
   -p 6052:6052 \
   -v /home/esphome:/config \
   --restart always \
-  ghcr.io/imagegenius/esphome:latest
+  ghcr.io/imagegenius/esphome:ubuntu
 
 # Execute the following command in the terminal to enable the openvfd service
 sed -i 's|^#*openvfd_enable=.*|openvfd_enable="yes"|g' /etc/custom_service/start_service.sh
