@@ -27,7 +27,7 @@ docker run -d \
   -p 6052:6052 \
   -v /home/esphome:/config \
   --restart always \
-  ghcr.io/imagegenius/esphome:ubuntu
+  ghcr.io/esphome/esphome:stable
 
 # Execute the following command in the terminal to enable the openvfd service
 sed -i 's|^#*openvfd_enable=.*|openvfd_enable="yes"|g' /etc/custom_service/start_service.sh
@@ -37,3 +37,4 @@ sed -i 's|^#*openvfd_boxid=.*|openvfd_boxid="15"|g' /etc/custom_service/start_se
 apt install syncthing  
 systemctl enable syncthing@root.service
 systemctl start syncthing@root.service
+
